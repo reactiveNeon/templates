@@ -1,6 +1,4 @@
 {
-  description = "A flake template for development shells";
-
   inputs = {
     nixpkgs.url = "github:nixos/nixpkgs/nixos-unstable";
   };
