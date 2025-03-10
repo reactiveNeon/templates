@@ -13,8 +13,8 @@
   in {
 
     devShells.${system}.default = pkgs.mkShell {
-      nativeBuildInputs = [
-      ];
+      nativeBuildInputs = [];
+      buildInputs = [];
     };
 
   };
