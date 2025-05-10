@@ -3,7 +3,7 @@
 
   outputs = { self }: {
     shell = {
-      path = ./nix/shell;
+      path = ./flake/shell;
       description = "A empty nix shell";
     };
   };
